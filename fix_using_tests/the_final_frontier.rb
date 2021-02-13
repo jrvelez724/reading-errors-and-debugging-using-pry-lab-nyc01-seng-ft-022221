@@ -12,7 +12,7 @@ def crew_member
 ["Hello Junior.", "Hello Sebastian.", "Hello Iselly."]
 end
 
-def greeting_crew(crew) 
+def greet_crew(crew) 
   crew.each {|crew_member| "Hello#{crew_member}."}
 end
 
@@ -20,7 +20,6 @@ end
 def engage
   date = generate_star_date
   state_log(date)
-  greeting_crew(crew_member)
-  binding.pry
-  "hello"
+  greet_crew(crew_member)
+  
 end

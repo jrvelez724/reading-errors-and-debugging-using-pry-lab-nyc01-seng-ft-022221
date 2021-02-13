@@ -22,4 +22,5 @@ def engage
   state_log(date)
   greeting_crew(crew_member)
   binding.pry
+  "hello"
 end
